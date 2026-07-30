@@ -1,0 +1,18 @@
+import HautevilleHouse.MaterialsEngineeringSurfaceEngineeringTheoremCanonicalLaneLean.BridgeLemmas
+import HautevilleHouse.MaterialsEngineeringSurfaceEngineeringTheoremCanonicalLaneLean.GateLemmas
+
+namespace HautevilleHouse
+namespace MaterialsEngineeringSurfaceEngineeringTheoremCanonicalLaneLean
+
+structure SurfaceEngineeringEndgameState where
+  object : SurfaceEngineeringAdmittedObject
+
+def SurfaceEngineeringWitnessClosed (O : SurfaceEngineeringAdmittedObject) : Prop :=
+  O.surfaceEngineeringProperty
+
+structure SurfaceEngineeringAdmittedObject where
+  surfaceEngineeringProperty : Prop
+  conclusion : surfaceEngineeringProperty
+
+end MaterialsEngineeringSurfaceEngineeringTheoremCanonicalLaneLean
+end HautevilleHouse
